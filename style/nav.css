@@ -1,0 +1,57 @@
+
+.maindiv{
+     width:100%;
+     height: auto;
+}
+.mainheader{
+	width: 1000px;
+	height: 350;
+	margin: 0 auto;
+	background-color: blue;
+} 
+.navsection{
+	width: 1000px;
+    height: 50px;
+    float: left;
+    background-color: green;
+
+}
+.navsection ul li{
+	width: 200px;
+	height: 35px;
+	padding-top: 15px;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+}
+.navsection ul li:hover{
+      background-color: red;
+}
+.navsection ul li a{
+	color: #333;
+	text-decoration: none;
+}
+.navsection ul li .submenu{
+	width: 200px;
+	height: 35px;
+	padding-top: 15px;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	display: none;
+	position: relative;
+}
+.navsection ul li .submenu li{
+	background-color: orange;
+}
+.navsection ul li:hover .submenu{
+	display: block;
+}
+.navsection ul li .submenu li:hover{
+	background-color: violet;
+}
+.bannersection{
+	width: 1000px;
+	height: 300px;
+	float: left;
+}
