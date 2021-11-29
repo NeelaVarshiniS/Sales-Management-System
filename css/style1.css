@@ -1,0 +1,25 @@
+.navbar-inverse {
+    background-color: #f24a4a;
+    border-color: #080808
+}
+.side-nav{
+position:fixed;
+top:51px;
+width:255px;
+border-radius:0;
+overflow-y:auto;
+background-color: #f24a4a;
+bottom:0;
+overflow-x:hidden;
+padding-bottom:40px;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffff;
+}
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #ffff;
